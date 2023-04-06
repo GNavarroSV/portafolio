@@ -257,5 +257,5 @@
   }
   
   .icono-brillo {
-	animation: brillo 0.5s ease-out;
+	animation: brillo 0.5s ease-out 0.1s;
   }
