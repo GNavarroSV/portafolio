@@ -35,3 +35,16 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+const boton = document.getElementById("btnContacto");
+const iconos = document.querySelectorAll(".icono");
+
+boton.addEventListener("click", () => {
+  iconos.forEach((icono) => {
+    icono.classList.add("icono-brillo");
+    setTimeout(() => {
+      icono.classList.remove("icono-brillo");
+    }, 500); // duración de la animación en milisegundos
+  });
+});
