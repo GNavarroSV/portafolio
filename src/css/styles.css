@@ -227,3 +227,14 @@
 	  left: 0%;
 	}
   }
+
+.btn-contacto{
+	color: #003e99;;
+	transition: all 0.7s ease-in-out;
+	
+}
+
+.btn-contacto:hover{
+	color: orange;
+	transform: scale(1.1);
+}
