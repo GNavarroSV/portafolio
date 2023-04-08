@@ -9,7 +9,7 @@
     />
     <meta name="description" content="Portafolio de Gerardo Navarro" />
     <meta name="author" content="Gerardo Navarro" />
-    <link rel="icon" type="image/x-icon" href="img/brands/n.svg">
+    <link rel="icon" type="image/x-icon" href="img/brands/n.svg" />
     <title>Gerardo Navarro Portafolio</title>
 
     <link href="css/styles.css" rel="stylesheet" />
@@ -20,28 +20,41 @@
       <div class="splash-icon"></div>
     </div>
 
-    <nav class="navbar navbar-expand navbar-dark absolute-top w-100 py-2">
+    <nav class="navbar navbar-expand-md navbar-dark absolute-top w-100 py-2">
       <div class="container">
         <a class="navbar-brand fw-bold" href="">
           navarro<span style="color: orange">.</span>
         </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#SobreMi">Acerca</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Tecnologias">Tecnologías</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Proyectos">Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Experiencia">Experiencia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contacto">Contacto</a>
-          </li>
-        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo0"
+          aria-controls="navbarTogglerDemo0"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo0">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#SobreMi">Acerca</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Tecnologias">Tecnologías</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -74,7 +87,10 @@
                       >]</span
                     >
                   </p>
-                  <a class="btn btn-warning"><i class="align-middle me-2 fas fa-fw fa-file-download"></i>Curriculum Vitae</a>
+                  <a class="btn btn-warning"
+                    ><i class="align-middle me-2 fas fa-fw fa-file-download"></i
+                    >Curriculum Vitae</a
+                  >
                   <div class="my-4">
                     <img
                       src="img/brands/logo-django.svg"
@@ -139,7 +155,7 @@
           <div class="col-md-8">
             <p class="text-muted fs-4" style="text-align: justify">
               Hola, soy Gerardo y tengo 21 años. Actualmente, me desarrollo como
-              QA Tester/Analista de Negocio, en donde he adquirido habilidades 
+              QA Tester/Analista de Negocio, en donde he adquirido habilidades
               en pruebas de software, análisis y documentación de requerimientos
               además de la estrecha colaboración con equipos de desarrollo.
               Además, tengo interés en el desarrollo web, para el cual utilizo
@@ -153,7 +169,7 @@
         </div>
       </div>
     </section>
-     <!--Tecnologias-->
+    <!--Tecnologias-->
     <section class="py-6">
       <div class="mb-4 text-center">
         <h2 id="Tecnologias">
@@ -324,12 +340,14 @@
               </div>
             </a>
             <h4>Sistema para la Gestión de Capturas</h4>
-              <p class="text-muted">
-                Sistema orientado al registro y gestión de capturas realizadas por la policia nacional civil. El sistema
-                permite realizar el registro del capturado y sus datos personales junto a los cargos que se le atribuyen y 
-                lugar de detención. Adicionalmente, el sistema permite registrar y llevar control de los traslados y procesos 
-                judiciales que enfrente el detenido.
-              </p>
+            <p class="text-muted">
+              Sistema orientado al registro y gestión de capturas realizadas por
+              la policia nacional civil. El sistema permite realizar el registro
+              del capturado y sus datos personales junto a los cargos que se le
+              atribuyen y lugar de detención. Adicionalmente, el sistema permite
+              registrar y llevar control de los traslados y procesos judiciales
+              que enfrente el detenido.
+            </p>
           </div>
         </div>
       </div>
@@ -342,62 +360,124 @@
             Experiencia<span style="color: orange">.</span>
           </h2>
         </div>
-          <div class="container py-5">
-            <div class="main-timeline">
-              <div class="timeline right">
-                <div class="card">
-                  <div class="card-body p-4">
-                    <h4 class>Marzo 2021 - Febrero 2022</h4>
-                    <p class = "text-muted">Asistente Administrativo - Fumigadora y Formuladora Campos S.A. de C.V.</p>
-                    <ul>
-                      <li><p class="mb-0">Apoyo en logística, administración y manejo de recursos.</p></li>
-                    </ul>
-                  </div>
+        <div class="container py-5">
+          <div class="main-timeline">
+            <div class="timeline right">
+              <div class="card">
+                <div class="card-body p-4">
+                  <h4 class>Marzo 2021 - Febrero 2022</h4>
+                  <p class="text-muted">
+                    Asistente Administrativo - Fumigadora y Formuladora Campos
+                    S.A. de C.V.
+                  </p>
+                  <ul>
+                    <li>
+                      <p class="mb-0">
+                        Apoyo en logística, administración y manejo de recursos.
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="timeline left">
-                <div class="card">
-                  <div class="card-body p-4">
-                    <h4>Junio 2022 - Actualidad</h4>
-                    <p class = "text-muted">Software Quality Assurance Tester - DAI (Proyecto USAID para la gestión de las finanzas públicas)</p>
-                    <ul>
-                      <li><p class="mb-0">Planificación y ejecución de pruebas manuales bajo diferentes escenarios, garantizando la calidad de los diferentes sistemas desarrollados.</p>
-                      </li>
-                      <li><p class="mb-0">Documentación, registro y seguimiento de incidentes encontrados, para garantizar la resolución de los mismos y mantener la integridad de los nuevos productos.</p></li>
-                      <li><p class="mb-0"></p>Participación en el análisis y definición de requerimientos para la implementación de un sistema dirigido a la gerencia comercial de la organización autónoma responsable de la captación y distribución de agua en El Salvador.</li>
-                      <li><p class="mb-0">Diseño de interacción y prototipos para los sistemas desarrollados, mejorando la satisfacción del usuario y siguiendo los principios del 'Design Thinking'.</p></li>
-                    </ul>
-                  </div>
+            </div>
+            <div class="timeline left">
+              <div class="card">
+                <div class="card-body p-4">
+                  <h4>Junio 2022 - Actualidad</h4>
+                  <p class="text-muted">
+                    Software Quality Assurance Tester - DAI (Proyecto USAID para
+                    la gestión de las finanzas públicas)
+                  </p>
+                  <ul>
+                    <li>
+                      <p class="mb-0">
+                        Planificación y ejecución de pruebas manuales bajo
+                        diferentes escenarios, garantizando la calidad de los
+                        diferentes sistemas desarrollados.
+                      </p>
+                    </li>
+                    <li>
+                      <p class="mb-0">
+                        Documentación, registro y seguimiento de incidentes
+                        encontrados, para garantizar la resolución de los mismos
+                        y mantener la integridad de los nuevos productos.
+                      </p>
+                    </li>
+                    <li>
+                      <p class="mb-0"></p>
+                      Participación en el análisis y definición de
+                      requerimientos para la implementación de un sistema
+                      dirigido a la gerencia comercial de la organización
+                      autónoma responsable de la captación y distribución de
+                      agua en El Salvador.
+                    </li>
+                    <li>
+                      <p class="mb-0">
+                        Diseño de interacción y prototipos para los sistemas
+                        desarrollados, mejorando la satisfacción del usuario y
+                        siguiendo los principios del 'Design Thinking'.
+                      </p>
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div class="timeline right">
-                <div class="card">
-                  <div class="card-body p-4">
-                    <h3>XXXX</h3>
-                    <p class = "text-muted">Ejerciendo como XXXXXX en XXXXXXX</p>
-                    <p class="mb-0">Forma parte de mi trayectoria profesional.</p>
-                    <a class="btn btn-warning mt-4" href = "#Contacto" id = "btnContacto">Contáctame</a>
-                  </div>
+            </div>
+            <div class="timeline right">
+              <div class="card">
+                <div class="card-body p-4">
+                  <h3>XXXX</h3>
+                  <p class="text-muted">Ejerciendo como XXXXXX en XXXXXXX</p>
+                  <p class="mb-0">Forma parte de mi trayectoria profesional.</p>
+                  <a
+                    class="btn btn-warning mt-4"
+                    href="#Contacto"
+                    id="btnContacto"
+                    >Contáctame</a
+                  >
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </section>
     <!--Contacto-->
     <section class="py-6 bg-white">
-      <div class = "container">
-          <div class="mb-4 text-center">
-            <h2 id="Contacto">Contacto<span style="color: orange">.</span></h2>
-            <p class="text-muted">
-              ¿Quieres expandir tu red de contactos, colaborar conmigo o formar parte de mi carrera profesional? Contáctame a través de cualquiera de los siguientes medios.
-            </p>
-          <div class = "">
-            <a href = "mailto:gerardo.navarro2001@hotmail.com?subject = Oferta laboral&body = Message" class = "align-middle btn-contacto" target = "_blank"><i class="align-middle fas fa-fw fa-envelope fa-5x icono"></i></a>
-            <a href = "https://www.linkedin.com/in/gerardo-navarro-36209221a/" class = "align-middle btn-contacto" target = "_blank"><i class="align-middle fab fa-fw fa-linkedin fa-5x icono"></i></a>
-            <a href = "https://github.com/GNavarroSV" class = "align-middle btn-contacto" target = "_blank"><i class="align-middle fab fa-fw fa-github-square fa-5x icono"></i></a>
-            <a href = "https://wa.me/50371478444" class = "align-middle btn-contacto" target = "_blank"><i class="align-middle fab fa-fw fa-whatsapp-square fa-5x icono"></i></a>
-          </div>
+      <div class="container">
+        <div class="mb-4 text-center">
+          <h2 id="Contacto">Contacto<span style="color: orange">.</span></h2>
+          <p class="text-muted">
+            ¿Quieres expandir tu red de contactos, colaborar conmigo o formar
+            parte de mi carrera profesional? Contáctame a través de cualquiera
+            de los siguientes medios.
+          </p>
+          <a
+            href="mailto:gerardo.navarro2001@hotmail.com?subject = Oferta laboral&body = Message"
+            class="align-middle btn-contacto"
+            target="_blank"
+            ><i class="align-middle fas fa-fw fa-envelope fa-5x icono"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/gerardo-navarro-36209221a/"
+            class="align-middle btn-contacto"
+            target="_blank"
+            ><i class="align-middle fab fa-fw fa-linkedin fa-5x icono"></i
+          ></a>
+          <a
+            href="https://github.com/GNavarroSV"
+            class="align-middle btn-contacto"
+            target="_blank"
+            ><i class="align-middle fab fa-fw fa-github-square fa-5x icono"></i
+          ></a>
+          <a
+            href="https://wa.me/50371478444"
+            class="align-middle btn-contacto"
+            target="_blank"
+            ><i
+              class="align-middle fab fa-fw fa-whatsapp-square fa-5x icono"
+            ></i
+          ></a>
+        </div>
       </div>
     </section>
     <button class="text-center" onclick="topFunction()" id="btnSubir">
